@@ -1,25 +1,26 @@
 [
-{
-    "name": "Meow",
-    "species": "cat",
-    "favFood": "fish"
-  },
-
   {
-    "name": "Rocky",
-    "species": "dog",
-    "favFood": "meat"
+    "name": "Meowsy",
+    "species" : "cat",
+    "foods": {
+      "likes": ["tuna", "catnip"],
+      "dislikes": ["ham", "zucchini"]
+    }
   },
-
   {
-    "name": "paddy",
-    "species": "dog",
-    "favFood": "carrots"
+    "name": "Barky",
+    "species" : "dog",
+    "foods": {
+      "likes": ["bones", "carrots"],
+      "dislikes": ["tuna"]
+    }
   },
-
   {
-    "name": "scissor",
-    "species": "cat",
-    "favFood": "cat food"
+    "name": "Purrpaws",
+    "species" : "cat",
+    "foods": {
+      "likes": ["mice"],
+      "dislikes": ["cookies"]
+    }
   }
-];
+]
